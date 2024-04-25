@@ -1,0 +1,90 @@
+/*전체*/
+*{
+    text-decoration: none;
+}
+body{}
+body>section{
+    width: 1600px;
+    margin: 0 auto;
+}
+
+
+/*헤더*/
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.wholemenu{
+    padding-right: 40px;
+    float: left;
+}
+nav{
+    width: 74em;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-weight: bold;
+}
+nav ul li:hover{
+    color: red;
+    }
+.search{
+    padding-left: 40px;
+    float: right;
+}
+
+
+/*메인*/
+main table{
+    margin: 50px auto;
+}
+table td{
+    padding: 5px;
+}
+table td:hover{
+    background-color: #333;
+    opacity: 60%;
+    filter: grayscale(10);
+}
+.button{
+    margin: 50px auto;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    padding-top: 15px;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+}
+.button:hover{
+    background-color: white;
+    border: 3px solid black;
+    color: black;
+}
+
+
+/*풋터*/
+footer{}
+footer .banner{
+    margin: 50px auto;
+    display: flex;
+}
+.banner1, .banner2{ 
+    border-right: 2px solid #9e9e9e57;
+}
+footer div{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav{
+    margin-bottom: 50px;
+}
